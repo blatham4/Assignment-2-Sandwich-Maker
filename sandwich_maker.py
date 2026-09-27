@@ -10,6 +10,6 @@ class SandwichMaker:
                 return False
         return True
 
-    def make_sandwich(self, sandwich_size, order_ingredients)
+    def make_sandwich(self, sandwich_size, order_ingredients):
         for ingredient in order_ingredients:
             self.machine_resources[ingredient] -= order_ingredients[ingredient]
